@@ -7,16 +7,16 @@ from myEdgeFilter import myEdgeFilter
 from myHoughLines import myHoughLines
 from myHoughTransform import myHoughTransform
 
-# changing these made it work on my computer
+
 datadir    = 'data'      # the directory containing the images
 resultsdir = 'results'   # the directory for dumping results
 
 # parameters
-sigma     = 2           # default 2
-threshold = 0.005       # default 0.03? much too high
-rhoRes    = 1           # default 2
-thetaRes  = np.pi / 50  # default np.pi / 90
-nLines    = 15          # default 15
+sigma     = 2           
+threshold = 0.005       
+rhoRes    = 1           
+thetaRes  = np.pi / 50  
+nLines    = 15          
 # end of parameters
 
 for file in os.listdir(datadir):
